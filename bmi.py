@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 st.title("CHIOMA'S BMI CALCULATOR")
 
-img = Image.open("C:\\Users\\eyehc\\Downloads\\905513-obesity-3217137.jpg")
+img = Image.open("905513-obesity-3217137.jpg")
 
 st.image(img,width=500)
 name = st.text_input("Enter your name")
